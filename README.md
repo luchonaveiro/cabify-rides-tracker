@@ -24,7 +24,7 @@ On this project, I am going to parse the mails, and store the data in a database
 ## Technologies Used
 To accomplish this, I am going to use `Apache Airflow` to orchestrate the ETL. I am going to retrieve the daily mails from cabify, parse the data in a structured way so I can store it on a `PostgreSQL` database, and at the end, connect `Apache Superset` to the database to create a dashaboard to keep track of my spend.
 
-![diagram](assets/Diagram-cabify-rides-tracker.jpg)
+![diagram](assets/Diagram-cabify-rides-tracker.png)
 
 ### Docker
 Docker is an open source containerization platform. It enables developers to package applications into containers—standardized executable components combining application source code with the operating system (OS) libraries and dependencies required to run that code in any environment.
