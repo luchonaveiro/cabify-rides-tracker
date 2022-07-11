@@ -6,7 +6,7 @@
 [![Generic badge](https://img.shields.io/badge/Apache_Superset-1.5.0-blue.svg)](https://superset.apache.org/)
 [![Generic badge](https://img.shields.io/badge/Docker-20.10.6-blue.svg)](https://www.docker.com/)
 
-On the following project, I are going to retrieve the mails sent by Pedidos Ya after ordering food, and create my own dashboard to keep track the amount of money I spend on food, tips and shipping on Pedidos Ya app.
+On the following project, I are going to retrieve the mails sent by Cabify App after booking a ride, and create my own dashboard to keep track the amount of money I spend car riding.
 
 ## Cabify
 Cabify is a Spanish ridesharing company which provides vehicles for hire via its smartphone mobile app. Vehicles are driven by self-employed service providers. Operating in Spain, Portugal and Latin America,
@@ -89,7 +89,7 @@ Here we can see the previous example parsed on the DAG, and how it is stored on 
 - An API for programmatic customization
 - A cloud-native architecture designed from the ground up for scale
 
-Once we have the database backfilled with all the mails parsed data, we can spin up `Apache Superset` and create a dahsboard to keep track of all the Pedidos Ya orders and spend.
+Once we have the database backfilled with all the mails parsed data, we can spin up `Apache Superset` and create a dahsboard to keep track of all the Cabify rides spend.
 
 To build `Apache Superset`, I am going to use the official `docker-compose-non-dev.yml`, which you can find on tghe `superset` directory
 
